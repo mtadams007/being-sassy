@@ -13,6 +13,6 @@
 
 @mixin top-lefty ($topValue, $leftValue) {
   position: absolute;
-  margin-top: $topValue;
-  margin-left: $leftValue;
+  top: $topValue;
+  left: $leftValue;
 }
