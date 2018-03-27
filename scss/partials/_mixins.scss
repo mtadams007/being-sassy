@@ -5,7 +5,11 @@
   background-color: $boxColor;
 }
 
-// @mixin breakPoint ()
+@mixin breakPoint {
+  @media (max-width: 450px) {
+
+  }
+}
 
 @mixin top-lefty ($topValue, $leftValue) {
   position: absolute;
