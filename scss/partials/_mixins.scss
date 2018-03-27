@@ -1,0 +1,14 @@
+@mixin boxStyles ($boxHeight, $boxWidth, $boxColor) {
+  border: 1px solid black;
+  height: $boxHeight;
+  width: $boxWidth;
+  background-color: $boxColor;
+}
+
+// @mixin breakPoint ()
+
+@mixin top-lefty ($topValue, $leftValue) {
+  position: absolute;
+  margin-top: $topValue;
+  margin-left: $leftValue;
+}
