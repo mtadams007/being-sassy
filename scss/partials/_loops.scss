@@ -1,0 +1,15 @@
+p {
+  @if $num == 1 {
+    font-size: 5px;
+  } @else if $num == 2 {
+    font-size: 20px;
+  } @else {
+    font-size: 10px;
+  }
+}
+
+@each $current-color in $colors {
+  .#{$current-color} {
+    background-color: #{$current-color};
+  }
+}

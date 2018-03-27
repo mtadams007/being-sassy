@@ -1,6 +1,18 @@
 .nav-wrapper {
   background-color: #eeba30; }
 
+p {
+  font-size: 20px; }
+
+.darkslateblue {
+  background-color: darkslateblue; }
+
+.seagreen {
+  background-color: seagreen; }
+
+.steelblue {
+  background-color: steelblue; }
+
 #main-container {
   width: 100%;
   background-color: #740001; }
